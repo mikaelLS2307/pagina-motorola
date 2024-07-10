@@ -1,0 +1,379 @@
+.mate-sc-regular {
+    font-family: "Mate SC", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  html{
+      scroll-behavior: smooth;
+      
+  }
+
+  body{
+      margin: 0;
+      padding: 0;
+      
+  }
+
+
+.nav-main{
+    border-bottom: solid 1px black;
+    height: auto;
+    padding: 2rem;
+    margin-top: 0;
+    background-color: beige;
+}
+
+
+.itens-nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.itens-nav ul li a{
+    text-decoration: none;
+    border-radius: 5px;
+    border: solid 1px black;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    padding-inline: 5vh;
+    background-color: rgba(250, 177, 67, 0.685);
+    color: rgb(0, 0, 0);
+    transition: 0.3s;
+    border: none;
+    font-weight: bold;
+}
+.itens-nav a:hover{
+    background-color: white;
+    color: rgb(243, 149, 9);
+    
+}
+
+.itens-nav{
+    margin-top: 0;
+    
+}
+
+.titulo{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 5%;
+    justify-content:center;
+}
+
+.titulo h1 span{
+    padding-top:5%;
+    font-family: Mate SC regular;
+    font-size: 50pt;
+}
+
+.titulo h1 i{
+    margin-right: 1%;
+    
+}
+
+.subtitulo{
+    text-align: center;
+    font-size: 22pt;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 5%;
+    padding: 3%;
+    background-color: rgba(221, 220, 220, 0.664);
+    border-bottom: 1px solid black;
+    
+}
+
+.card-acessorios{
+    border: 1px solid black;
+    width: 25%;
+    height: auto;
+    box-shadow: 2px 2px 15px black;
+    background-color: beige;
+}
+
+.card-cel{
+    border: 1px solid black;
+    width: auto;
+    height: auto;
+    box-shadow: 2px 2px 15px black;
+    background-color: beige;
+}
+
+.card-motowatch{
+    border: 1px solid black;
+    width: auto;
+    height: auto;
+    box-shadow: 2px 2px 15px black;
+    background-color: beige;
+}
+.card-cel img{
+    margin-left: 2%;
+}
+
+.img-cel{
+    border-bottom: 1px solid black;
+    display: flex;
+    align-items:  center;   
+    background-image: linear-gradient(to right, rgb(247, 232, 165), white, rgb(247, 232, 165));
+    width: 100%;
+    transition: 0.3s ease;
+    height: 60%;
+}
+.img-cel:hover{
+    transform: scale(1.2);
+    border-radius: 2rem;
+}
+
+.card-cel p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 22pt;
+    text-align: center;
+}
+
+.conferir{
+    justify-content: center;
+    text-align: center;
+}
+
+.btn-conferir{
+    padding-inline:2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin-bottom: 2%;
+    background-color: rgba(250, 177, 67, 0.685);
+    transition: 0.3s ease;
+    cursor: pointer;
+    font-size: 16pt;
+    font-weight: bold;
+    color: rgb(3, 3, 3);
+    border: none;
+    border-radius: 1rem;
+}
+
+.btn-conferir:hover{
+    background-color: white;
+    color: rgb(243, 149, 9);
+    
+    box-shadow: 1px 1px 9px ;
+}
+
+
+
+.img-acessorios{
+    border-bottom: 1px solid black;
+    display: flex;
+    align-items:  center;   
+    background-image: linear-gradient(to right, rgb(247, 232, 165), white, rgb(247, 232, 165));
+    width: 100%;
+    transition: 0.3s ease;
+    height: 60%
+}
+.img-acessorios:hover{
+    transform: scale(1.2);
+    border-radius: 2rem;
+}
+
+.card-acessorios p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 22pt;
+    text-align: center;
+}
+
+.img-motowatch{
+    border-bottom: 1px solid black;
+    display: flex;
+    align-items:  center;   
+    background-image: linear-gradient(to right, rgb(247, 232, 165), white, rgb(247, 232, 165));
+    width: 100%;
+    transition: 0.3s ease;
+    height: 60%;
+    
+    
+}
+.img-motowatch:hover{
+    transform: scale(1.2);
+    border-radius: 2rem;
+}
+
+.card-motowatch img{
+    margin-left: 2%;
+}
+
+.card-motowatch p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 22pt;
+    text-align: center;
+}
+
+.about{
+    padding: 5rem;
+    
+}
+.aboutus h1{
+    text-align: start;
+    font-size: 50pt;
+    font-family: Mate SC regular;
+}
+.txtabout{
+    font-size: 18pt;
+}
+
+.email{
+    margin-top: 5%;
+    text-align: center;
+    border: 1px solid black;
+    padding-bottom: 2rem;
+    background-color: rgba(221, 220, 220, 0.664);
+    height: auto;
+}
+.email h2{
+    font-size: 26pt;
+    font-family: Mate SC regular;
+}
+.email span{
+    font-family: Montserrat;
+    
+}
+.inputsemail{
+    display: flex;
+    justify-content: center;
+    margin: 2%;
+}
+
+.input{
+    width: 22rem;
+    height: 3.5rem;
+    border-radius: 0.5rem;
+    border: none;
+    margin-inline: 2%;
+    font-family: Montserrat;
+}
+.check{
+    font-family:Montserrat ;
+    font-size: 10pt;
+}
+.btn-conferir:active{
+    background-color: rgba(255, 166, 0, 0.842);
+    color: white;
+}    
+
+.txtredes{
+    text-align: center;
+    font-family: Mate SC regular;
+    font-size: 18pt;
+}
+
+.redes{
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 25%;
+}
+
+.rodape{
+    display: flex;
+    justify-content: space-around;
+    padding: 5rem;
+    align-items: center;
+}
+
+.pagamentos{
+    font-family: Mate SC regular;
+}
+.seguro{
+    font-family: Mate SC regular;
+}
+
+.iconehome img{
+    border: 1px solid rgba(255, 166, 0, 0.842);
+    border-radius: 2rem;
+    transition: 0.3s ease;
+}
+.iconehome img:hover{
+    transform: scale(1.5);
+    
+}
+
+@media (max-width: 600px){
+    html{
+        width: 131%;
+    }
+    header{
+        width: 100%;
+    };
+    .nav-main{
+        width: 100%;
+        padding: 0;
+    }
+    .itens-nav ul{
+        display: flex;
+        width: 90%;
+        
+    }
+    .itens-nav ul li a{
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        padding-inline: 1vh;
+        font-size: 12pt;
+        margin-inline: 0.5rem;
+    }
+
+    .subtitulo{
+        font-size: 18pt;
+    }
+
+    .cards{
+        flex-direction: column;
+    }
+    .card-acessorios{
+        width: 100%;
+        box-shadow: none;
+        margin-bottom: 2%;
+    }
+    .card-cel{
+        box-shadow:none;
+        margin-bottom: 2%;
+    }
+    .img-acessorios{
+        justify-content: center;
+    }
+    .card-motowatch{
+        justify-content: center;
+        box-shadow: none;
+        margin-bottom: 2%;
+    }
+    .txtemail span{
+        margin-inline: 2%;
+        margin-bottom: 2%;
+        
+    }
+    .inputsemail{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .inputsemail button{
+        width: 50%;
+        margin-left: 25%;
+        margin-top: 5%;
+    }
+    .email{
+        border: none;
+    }
+    .input{
+        width: auto;
+        margin-bottom: 1%;
+    }
+    .rodape{
+        display: none;
+    }
+}

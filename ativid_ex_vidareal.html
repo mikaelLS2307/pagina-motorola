@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles-vidareal.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Mate+SC&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <title>Exemplo</title>
+</head>
+<body>
+<header>
+    <nav class="nav-main">
+        <div class="itens-nav">
+            <ul class="nav">
+                <li><a href="">Home</a></li>
+                <li><a href="#produtos">Produtos</a></li>
+                <li><a href="#about">Sobre nós</a></li>
+                <li><a href="#redes">Redes Sociais</a></li>
+            </ul>
+        </div>
+    </nav>
+</header>
+
+    <div class="titulo">
+        <h1><i><img src="icons8-motorola-67.png" width="50px" height="50px" alt=""></i><span>Motorola</span></h1>
+        <div class="subtitulo">
+            <p>Bem-vindo(a) a loja da Motorola, aproveite!</p>
+        </div>
+    </div>
+
+    <section class="cards" id="produtos">
+        <div class="card-acessorios">
+            <div class="img-acessorios">
+                <img src="acessorio1.png" width="auto" height="150px" alt="">
+                <img src="acessorio2.png" width="200px" height="200px" alt="">
+            </div>
+            <div class="txt-cel">
+                <p>Acessórios em oferta</p>
+            </div>
+            <div class="conferir">
+                <button class="btn-conferir">
+                    Venha Conferir
+                </button>
+            </div>
+        </div>
+
+
+        <div class="card-cel">
+            <div class="img-cel">
+                <img src="moto50.png" alt="" width="auto" height="50px" >
+                <img src="imagem-cel.png" width="270px" height="270px" alt="">
+            </div>
+            <div class="txt-cel">
+                <p>Celulares com preços imperdíveis</p>
+            </div>
+            <div class="conferir">
+                <button class="btn-conferir">
+                    Venha Conferir
+                </button>
+            </div>
+        </div>
+        
+        
+        <div class="card-motowatch">
+            <div class="img-motowatch">
+                <img src="nomewatch.png" width="auto" height="30px" alt="">
+                <img src="motowatch.png" width="200px" height="200px" alt="">
+            </div>
+            <div class="txt-cel">
+                <p>O SmartWatch da Motorola</p>
+            </div>
+            <div class="conferir">
+                <button class="btn-conferir">
+                    Venha Conferir
+                </button>
+            </div>
+        </div>
+    </section>
+    <section class="about" id="about">
+        <div class="aboutus">
+            <h1>Sobre nós</h1>
+            <div class="txtabout">
+             <p>
+                A Motorola existe para projetar, criar e fornecer inovações significativas para pessoas em todo o mundo, apresentando sempre as melhores tecnologias para transformar a maneira como descobrem, compartilham e se conectam com o mundo ao seu redor.
+             </p>    
+             <p>
+                Desde 1928, temos nos empenhado em trazer as melhores tecnologias para a vida de cada um e muitas delas foram responsáveis por tirar o sonho da mobilidade do papel, como o primeiro telefone celular, a primeira estação de rádio e tantas outras iniciativas desse segmento.
+              </p>
+              <p>    
+                Na Motorola, trabalhamos incessantemente para fornecer às pessoas acesso a produtos e serviços móveis de última geração, necessários para tornar a vida cotidiana muito mais fácil e agradável para todos.
+              </p>
+          </div>
+        </div>
+    </section>
+    <section class="email">
+        <div class="txtemail">
+            <h2>
+                Receba nossas ofertas, lançamentos e promoções
+            </h2>
+            <span>
+                Cadastre-se agora e ganhe um cupom de R$ 150* para sua primeira compra.
+            </span>
+        </div>
+        <div class="inputsemail">
+            <input type="text" placeholder="Digite o seu Nome" class="input">
+            <input type="email" placeholder="Digite o seu e-mail" class="input">
+            <button type="submit" class="btn-conferir" onclick="email()" style="font-family: Montserrat;">Enviar</button>
+        </div>
+        <div class="boxpromo">
+            <input type="checkbox" name="check" class="checkbox">
+            <label for="check"  class="check" >Aceito receber informações sobre produtos e ofertas promocionais especiais da Motorola por email, e confirmo que tenho 16 anos ou mais. <a href="#" style="font-weight: bold; color: black;"> Política de Privacidade</a>.</label>
+        </div>
+    </section>
+    <section class="redessociais" >
+        <div class="txtredes" id="redes">
+            <h2>Siga-nos nas redes sociais</h2>
+        </div>
+        <div class="redes">
+           <a href="https://www.instagram.com/motorolabr/" target="_blank"> <i><img src="logotipo-do-instagram.png" width="50px" height="50px" alt=""></i></a>
+           <a href="https://www.facebook.com/MotoBRA/" target="_blank"> <i><img src="facebook.png" width="50px" height="50px" alt=""></i></a>
+           <a href="https://twitter.com/MotorolaBR" target="_blank"> <i><img src="twitter.png" width="50px" height="50px" alt=""></i></a>
+           <a href="https://www.youtube.com/MotoBRA" target="_blank"> <i><img src="youtube.png" width="50px" height="50px" alt=""></i></a>
+        </div>
+    </section>
+    
+    <section class="rodape">
+        <div class="pagamentos">
+            <h2>Pagamentos</h2>
+            <i><img src="pix.png" alt=""></i>
+        </div>
+        <div class="seguro">
+            <h2>Site Seguro</h2>
+            <a href=""><i><img src="google-certificateN.png" alt=""></i></a>
+            <a href=""><i><img src="pci-certificateN.png" alt=""></i></a>
+            <a href=""><i><img src="ra-certificateN.png" alt=""></i></a>
+            <a href=""><i><img src="vtex-certificateN.png" alt=""></i></a>
+        </div>
+
+            <a href="#"><i class="iconehome"><img src="img/pra-cima.png" width="50px" height="50px"  alt=""></i></a>
+    </section>
+</body>
+<script>
+    function email(){
+        alert("Enviado com Sucesso!");
+        
+    }
+</script>
+
+</html>
