@@ -401,6 +401,9 @@
     .rodape{
         display: none;
     }
+    .redes{
+        margin-bottom: 5rem;
+    }
     .vazia{
         display: block;
         padding: 2rem;
