@@ -303,10 +303,13 @@
     transform: scale(1.5);
     
 }
+.vazia{
+    display: none;
+}
 
 @media (max-width: 600px){
     html{
-        width: 131%;
+        width: 100%;
     }
     header{
         width: 100%;
@@ -316,16 +319,24 @@
         padding: 0;
     }
     .itens-nav ul{
-        display: flex;
-        width: 90%;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        width: 80%;
         
     }
+    .itens-nav ul li{
+        margin: 0.5rem;
+        margin-top: 0.7rem;
+        
+    }
+
     .itens-nav ul li a{
-        padding-top: 1rem;
-        padding-bottom: 1rem;
-        padding-inline: 1vh;
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+        padding-inline: 1.5vh;
         font-size: 12pt;
-        margin-inline: 0.5rem;
+        
     }
 
     .subtitulo{
@@ -344,6 +355,13 @@
         box-shadow:none;
         margin-bottom: 2%;
     }
+    .img-cel{
+        flex-direction: column;
+    }
+    .img-cel img{
+        width: auto;
+        margin-top: 4%;
+    }
     .img-acessorios{
         justify-content: center;
     }
@@ -351,6 +369,13 @@
         justify-content: center;
         box-shadow: none;
         margin-bottom: 2%;
+    }
+    .img-motowatch{
+        flex-direction: column;
+    }
+    .img-motowatch img{
+        width: auto;
+        margin-top: 4% ;
     }
     .txtemail span{
         margin-inline: 2%;
@@ -375,5 +400,9 @@
     }
     .rodape{
         display: none;
+    }
+    .vazia{
+        display: block;
+        padding: 2rem;
     }
 }
