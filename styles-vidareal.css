@@ -298,6 +298,7 @@
     border: 1px solid rgba(255, 166, 0, 0.842);
     border-radius: 2rem;
     transition: 0.3s ease;
+    padding: 0.2rem;
 }
 .iconehome img:hover{
     transform: scale(1.5);
@@ -358,7 +359,7 @@
     .img-cel{
         flex-direction: column;
     }
-   .img-cel img{
+    .img-cel img{
         width: auto;
         margin-top: 4%;
         transition: 0.3s ease;
